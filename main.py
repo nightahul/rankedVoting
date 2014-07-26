@@ -10,13 +10,18 @@ from Votingmachine import Votingmachine
 
 
 
-filename = 'test_file.csv'              
-'''
-filename contains a csv file with names of candidates in each row 
-in the order in which they were voted.
-'''
+if __name__ == '__main__':
+    filename = 'test_file.csv'   
+    '''
+    filename contains a csv file with names of candidates in each row 
+    in the order in which they were voted.
+    '''
+    
+    evm = Votingmachine(filename)
+           
 
-evm = Votingmachine(filename)
+
+
 
         
     

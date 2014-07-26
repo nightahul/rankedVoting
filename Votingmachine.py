@@ -60,7 +60,6 @@ class Votingmachine:
         while True:
             num_rounds+=1
             votes = self.count_votes()
-            print votes
             best_candidate = self.find_max(votes)
             if best_candidate is None:
                 break

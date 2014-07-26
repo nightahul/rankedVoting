@@ -2,7 +2,7 @@
 """
 Created on Sun Jul 27 01:12:28 2014
 
-@author: hoder
+@author: rahul
 """
 
 class Ballot:
